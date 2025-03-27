@@ -6,8 +6,6 @@ This repository contains three practical Python scripts developed as part of a s
 
 We explore scraping from dynamic websites using Selenium and Scrapy, targeting sources like the NBA official stats page, YouTube, and Genshin Impact France.
 
----
-
 ## 🏀 NBA Player Stats Scraper
 
 **Purpose:**  
@@ -26,8 +24,6 @@ Scrapes player statistics and headshots from the official [NBA Stats](https://ww
 **Output:**
 - `NBA.csv`: Player stats and profile image links.
 - `/NBA_Player_Images`: Headshots of players.
-
----
 
 ## 📺 YouTube Data Scraper
 
@@ -50,8 +46,6 @@ Scrapes YouTube's homepage and search results to extract:
 **Example Searches:**
 - Searches for `Stairway to Heaven` and logs the first 3 results.
 - Analyzes the video: `https://www.youtube.com/watch?v=qHFxncb1gRY`
-
----
 
 ## ⚔️ Genshin Impact Characters Scraper
 
@@ -78,8 +72,6 @@ Uses **Scrapy** to collect detailed data on Genshin Impact characters from [gens
 scrapy crawl genshinCharacters
 ```
 
----
-
 ## 🛠️ Requirements
 
 Make sure to install the dependencies before running the scripts:
@@ -88,8 +80,6 @@ pip install selenium scrapy requests
 ```
 
 Also, you need **ChromeDriver** installed and added to your system path.
-
----
 
 ## 🚀 How to Use
 
@@ -102,15 +92,11 @@ cd your_scrapy_project
 scrapy crawl genshinCharacters
 ```
 
----
-
 ## 💡 Tips & Notes
 
 - Always respect the terms of service of the websites you scrape 🙏.
 - Consider adding `try/except` blocks for better error handling.
 - Use virtual environments for cleaner setups.
-
----
 
 ## 📂 Folder Structure
 
@@ -124,6 +110,4 @@ scrapy crawl genshinCharacters
 ├── genshin_characters.csv
 ├── BuildGenshinCharacters/
 ```
-
----
 
